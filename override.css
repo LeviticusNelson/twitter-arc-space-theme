@@ -1,0 +1,60 @@
+body,
+div[data-testid="primaryColumn"],
+aside,
+.r-5zmot,
+.r-c2syf2,
+div.r-kemksi,
+div.css-4rbku5 {
+  background-color: var(--arc-palette-background) !important;
+}
+
+.r-1bwzh9t,
+.r-13v1u17,
+.r-1nao33i {
+  color: var(--arc-palette-foregroundPrimary) !important;
+}
+
+.r-1bwzh9t,
+.css-1dbjc4n > a,
+a > span.css-16my406,
+a.r-1cvl2hr,
+.r-1cvl2hr > span,
+.r-1cvl2hr > svg {
+  color: var(--arc-palette-foregroundSecondary) !important;
+}
+
+.r-z32n2g,
+.r-gu4em3,
+.r-1wbh5a2 > .r-1niwhzg,
+.r-g2wdr4,
+div[role="link"].css-1dbjc4n.r-2t2l5v {
+  background-color: var(--arc-palette-backgroundExtra) !important;
+}
+
+.r-1bnu78o {
+  background-color: var(--arc-palette-foregroundTertiary) !important;
+}
+
+div[aria-label="Trending"] > div.css-1dbjc4n > div.r-dr54s0,
+div[aria-label="Trending"] > div.css-1dbjc4n > div.r-1awozwy {
+  background-color: transparent !important;
+}
+
+.css-1dbjc4n {
+  border: 0 solid var(--arc-palette-foregroundTertiary) !important;
+}
+
+.css-1dbjc4n > span {
+  color: var(--arc-palette-maxContrastColor) !important;
+}
+
+.css-1dbjc4n > .css-1dbjc4n.r-1iusvr4 > .css-1dbjc4n > a[role="link"],
+[aria-label="Tweet"],
+[data-testid="editProfileButton"] {
+  background-color: var(--arc-palette-foregroundSecondary) !important;
+}
+
+.public-DraftEditorPlaceholder-inner,
+input[data-testid="SearchBox_Search_Input"]::placeholder {
+  color: var(--arc-palette-cutoutColor);
+}

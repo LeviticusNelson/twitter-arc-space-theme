@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Arc Space Theme",
+  "version": "1.0.0",
+  "description": "This extension uses the Arc browser by The Browser Company to use it's built-in color vars in space themes.",
+  "short_name": "Twitter Arc",
+  "permissions": ["activeTab", "declaritiveContent"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["override.css"],
+      "js": ["override.js"]
+    }
+  ]
+}
